@@ -105,7 +105,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
 	$(LOCAL_PATH)/lib/libcam.device3.so:system/lib/libcam.device3.so \
 	$(LOCAL_PATH)/lib/libblisrc.so:system/lib/libblisrc.so \
-	$(LOCAL_PATH)/lib/libmnl.so:system/lib/libmnl.sov
+	$(LOCAL_PATH)/lib/libmnl.so:system/lib/libmnl.so \
 	$(LOCAL_PATH)/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
 	$(LOCAL_PATH)/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
 	$(LOCAL_PATH)/lib/libion.so:system/lib/libion.so \
@@ -177,7 +177,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	$(LOCAL_PATH)/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
 	$(LOCAL_PATH)/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	$(LOCAL_PATH)/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so
+	$(LOCAL_PATH)/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
 	$(LOCAL_PATH)/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so
 
 # vendor/lib/drm
